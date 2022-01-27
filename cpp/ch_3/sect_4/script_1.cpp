@@ -1,0 +1,15 @@
+#include <iostream>
+
+int getValue()
+{
+    std::cerr << "getValue() called \n";
+    return 4;
+}
+
+int main()
+{
+    std::cerr << "main() called \n";
+    std::cout << getValue;
+    std::cerr << "main() continued?\n";
+    return 0;
+}
